@@ -18,11 +18,11 @@ class _SplashPageState extends State<SplashPage> {
     super.initState();
 
     Timer(const Duration(seconds: 3), () {
-      Navigator.push(
+      print('Navigating to /onboarding');
+      Navigator.pushNamedAndRemoveUntil(
         context,
-        MaterialPageRoute(
-          builder: (context) => const OnboardingPage(),
-        ),
+        '/onboarding',
+        ModalRoute.withName('/'),
       );
     });
   }

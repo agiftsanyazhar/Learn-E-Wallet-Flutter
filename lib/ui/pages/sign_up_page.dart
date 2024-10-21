@@ -56,7 +56,7 @@ class SignUpPage extends StatelessWidget {
                 ),
                 // Note: Input Email
                 const CustomFormField(
-                  title: 'Email Address',
+                  title: 'Email',
                 ),
                 const SizedBox(
                   height: 16,

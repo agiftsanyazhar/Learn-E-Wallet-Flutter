@@ -15,7 +15,7 @@ class SignUpSuccessPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Akun Berhasil\nTerdaftar',
+              'Account Successfully\nRegistered',
               style: blackTextStyle.copyWith(
                 fontSize: 20,
                 fontWeight: semiBold,

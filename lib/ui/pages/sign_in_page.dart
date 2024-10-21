@@ -49,7 +49,7 @@ class SignInPage extends StatelessWidget {
               children: [
                 // Note: Input Email
                 const CustomFormField(
-                  title: 'Email Address',
+                  title: 'Email',
                 ),
                 const SizedBox(
                   height: 16,
